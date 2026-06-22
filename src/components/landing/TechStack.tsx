@@ -11,76 +11,73 @@ export default function TechStack() {
     languages: {
       icon: <Code2 className="h-6 w-6" />,
       title: "Языки программирования",
-      description: "Основные языки для системной и прикладной разработки",
+      description: "Основные языки для автоматизации и разработки",
       skills: [
-        { name: "C++", level: 90 },
-        { name: "C", level: 85 },
-        { name: "Java", level: 88 },
-        { name: "Ruby", level: 82 },
-        { name: "Python", level: 85 },
-        { name: "TypeScript", level: 90 },
-        { name: "JavaScript", level: 90 },
+        { name: "C#", level: 90 },
+        { name: "Python", level: 92 },
+        { name: ".NET", level: 85 },
+        { name: "SQL", level: 80 },
+        { name: "Bash", level: 75 },
       ],
     },
-    concepts: {
+    parsing: {
       icon: <Binary className="h-6 w-6" />,
-      title: "Инженерные концепции",
-      description: "Фундаментальные принципы разработки ПО",
+      title: "Парсинг и сбор данных",
+      description: "Извлечение данных с сайтов и из API",
       skills: [
-        { name: "Структуры данных", level: 95 },
-        { name: "Алгоритмы", level: 90 },
-        { name: "ООП", level: 95 },
-        { name: "Паттерны", level: 85 },
-        { name: "Системный дизайн", level: 80 },
-        { name: "Многопоточность", level: 85 },
+        { name: "Requests", level: 92 },
+        { name: "BeautifulSoup", level: 90 },
+        { name: "Scrapy", level: 85 },
+        { name: "Selenium", level: 88 },
+        { name: "Playwright", level: 85 },
+        { name: "Обход защиты", level: 80 },
       ],
     },
-    frontend: {
-      icon: <Layout className="h-6 w-6" />,
-      title: "Frontend-разработка",
-      description: "Современные технологии веб-разработки",
-      skills: [
-        { name: "React", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "Tailwind CSS", level: 95 },
-        { name: "Redux", level: 85 },
-        { name: "WebGL", level: 75 },
-      ],
-    },
-    backend: {
+    bots: {
       icon: <Server className="h-6 w-6" />,
-      title: "Backend-разработка",
-      description: "Серверные фреймворки и технологии",
+      title: "Телеграм-боты",
+      description: "Боты для бизнеса и автоматизации",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Express", level: 80 },
-        { name: "Spring Boot", level: 85 },
-        { name: "Ruby on Rails", level: 80 },
+        { name: "aiogram", level: 90 },
+        { name: "python-telegram-bot", level: 88 },
+        { name: "Telegram.Bot (C#)", level: 85 },
+        { name: "Платежи и подписки", level: 82 },
+        { name: "Рассылки", level: 88 },
+      ],
+    },
+    automation: {
+      icon: <Wrench className="h-6 w-6" />,
+      title: "Автоматизация",
+      description: "Скрипты для рутинных задач",
+      skills: [
+        { name: "Pandas", level: 88 },
+        { name: "Openpyxl / Excel", level: 85 },
+        { name: "Планировщики задач", level: 82 },
+        { name: "Работа с API", level: 90 },
+        { name: "Google Sheets API", level: 80 },
       ],
     },
     database: {
       icon: <Database className="h-6 w-6" />,
       title: "Базы данных",
-      description: "Управление и оптимизация БД",
+      description: "Хранение и обработка данных",
       skills: [
-        { name: "MongoDB", level: 85 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MySQL", level: 75 },
-        { name: "Redis", level: 70 },
+        { name: "PostgreSQL", level: 85 },
+        { name: "SQLite", level: 88 },
+        { name: "MySQL", level: 80 },
+        { name: "Redis", level: 75 },
       ],
     },
     tools: {
-      icon: <Wrench className="h-6 w-6" />,
+      icon: <Layout className="h-6 w-6" />,
       title: "Инструменты",
-      description: "Инструменты и среды разработки",
+      description: "Среды и сервисы разработки",
       skills: [
         { name: "Git", level: 90 },
-        { name: "Docker", level: 80 },
-        { name: "AWS", level: 75 },
-        { name: "Linux/Unix", level: 85 },
-        { name: "CMake", level: 80 },
-        { name: "Visual Studio", level: 85 },
+        { name: "Docker", level: 82 },
+        { name: "Linux", level: 85 },
+        { name: "VS Code", level: 90 },
+        { name: "Visual Studio", level: 88 },
       ],
     },
   }
@@ -200,9 +197,9 @@ export default function TechStack() {
           className="mt-12 text-center text-muted-foreground"
         >
           <p className="max-w-2xl mx-auto">
-            Обширный опыт как в низкоуровневом системном программировании, так и в современной
-            веб-разработке позволяет применять комплексное понимание принципов инженерии ПО
-            в каждом проекте.
+            Глубокий опыт в парсинге данных, разработке телеграм-ботов и автоматизации
+            рутины на C# и Python позволяет быстро решать практические задачи бизнеса
+            и собирать надёжные рабочие инструменты.
           </p>
         </motion.div>
       </div>
